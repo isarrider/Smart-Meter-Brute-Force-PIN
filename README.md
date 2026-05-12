@@ -2,7 +2,9 @@
 Brute forces a Smart Meter PIN
 
 Uart must be enabled in config.txt:
+
 #-------Serial/UART-----
+
 enable_uart=1
 
 and a Smart Meater IR Read Write Dongle (Schreib Lese Kopf) has to be attached - I use this one:
