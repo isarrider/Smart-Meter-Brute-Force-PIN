@@ -5,6 +5,6 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY pin_bruteforce.py .
+COPY smart-meter-brute-force-pin.py .
 
-CMD ["python", "pin_bruteforce.py"]
+CMD ["python", "smart-meter-brute-force-pin.py"]
