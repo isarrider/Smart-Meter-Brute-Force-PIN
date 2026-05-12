@@ -2,7 +2,7 @@ import time
 import serial
 
 # Parameters for serial port
-COM_PORT = '/dev/ttyS0'
+COM_PORT = '/dev/ttyAMA0'
 BAUDRATE = 9600
 
 # Pre-compute the byte sequence for a 100ms pulse.
